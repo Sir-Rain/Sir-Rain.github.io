@@ -5,4 +5,6 @@
 
 <Header />
 
-<PostItem />
+<!--<PostItem />-->
+<style lang="scss">
+</style>
