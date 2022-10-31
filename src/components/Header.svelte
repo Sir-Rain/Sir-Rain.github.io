@@ -14,7 +14,7 @@
 </script>
 
 <header>
-  <div class="inner mx-auto flex items-end justify-between py-8	">
+  <div class="inner mx-auto flex items-end justify-between	py-8">
     <a use:link href="/">
       <img src="" alt="" />
       <span>prin.log</span>
@@ -31,6 +31,13 @@
 </header>
 
 <style lang="scss">
+  header {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    border-bottom: 2px solid rgba(silver, 0.2);
+  }
+
   a {
     transition: 0.4s;
 
