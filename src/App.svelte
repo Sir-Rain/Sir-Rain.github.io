@@ -1,8 +1,7 @@
 <script>
   import Header from '~/components/Header.svelte';
-  import Router from 'svelte-spa-router';
-  import layout from '~/layout';
+  import Layout from './layout/Layout.svelte';
 </script>
 
 <Header />
-<Router routes={layout} />
+<Layout />
