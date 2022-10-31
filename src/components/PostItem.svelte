@@ -1,4 +1,11 @@
-<div class="post-item mb-4 cursor-pointer rounded-lg px-2 py-4">
+<script>
+  import { push } from 'svelte-spa-router';
+  export let id;
+</script>
+
+<div
+  class="post-item mb-4 cursor-pointer rounded-lg px-2 py-4"
+  on:click={() => push(`/${id}`)}>
   <div class="flex items-end justify-between">
     <div class="title text-2xl font-bold">hello world !!!</div>
     <div class="timestamp text-sm">2022-10-24</div>
