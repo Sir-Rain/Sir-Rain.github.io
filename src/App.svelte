@@ -6,7 +6,3 @@
 
 <Header />
 <Router routes={layout} />
-
-<!--<PostItem />-->
-<style lang="scss">
-</style>

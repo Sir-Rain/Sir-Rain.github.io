@@ -13,19 +13,32 @@
   ];
 </script>
 
-<div class="flex justify-between">
-  <a href="/#">
-    <img src="" alt="" />
-    <span>prin.log</span>
-  </a>
+<header>
+  <div class="inner mx-auto flex items-end justify-between py-8	">
+    <a use:link href="/">
+      <img src="" alt="" />
+      <span>prin.log</span>
+    </a>
 
-  <nav>
-    <ul class="flex">
-      {#each menus as { href, name } (name)}
-        <li><a use:link {href}>{name}</a></li>
-      {/each}
-    </ul>
-  </nav>
-</div>
+    <nav>
+      <ul class="flex">
+        {#each menus as { href, name } (name)}
+          <li class="ml-2"><a use:link {href}>{name}</a></li>
+        {/each}
+      </ul>
+    </nav>
+  </div>
+</header>
 
-<style lang="scss"></style>
+<style lang="scss">
+  a {
+    transition: 0.4s;
+
+    &:hover {
+      color: skyblue;
+    }
+    span {
+      font-size: 32px;
+    }
+  }
+</style>
