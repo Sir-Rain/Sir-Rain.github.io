@@ -4,7 +4,7 @@
   import layout from '~/layout';
 </script>
 
-<section class="inner mx-auto py-8">
+<section class="inner mx-auto py-6">
   <Router routes={layout} />
 </section>
 
