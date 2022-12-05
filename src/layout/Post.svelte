@@ -1,8 +1,10 @@
 <script>
+  import * as test from '../../public/_posts/2022/10/2022-10-31-test.md';
+
   const fileList = import.meta.glob('../../public/**/**.md');
   export let params;
 
-  console.log(fileList);
+  console.log(test);
 
   console.log(params.id);
 </script>
